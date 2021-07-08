@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+#container {
+    background-image: url(/images/image2.jpg);
+    overflow: auto;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#col-box {
+    background-image: url(/images/image2.jpg);
+    border: 1px solid white;
+    box-shadow: 3px 20px 20px #000;
+    border-radius: 10px;
+    padding: 0.3px 70px;
+}
+
+h1 {
+    font-size: 44px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#value {
+    font-size: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #008000;
+}
+
+#button {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+}
+
+#decrease {
+    background: #0d2c54;
+    color: white;
+    border: 1px solid transparent;
+    height: 3rem;
+    margin: 1.7rem;
+    width: 7rem;
+    box-shadow: 1px 10px 10px #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+#decrease:active {
+    transform: scale(0.9);
+}
+
+#increase {
+    background: #0d2c54;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 3rem;
+    width: 7rem;
+    box-shadow: 1px 10px 10px #000;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+#increase:active {
+    transform: scale(0.9);
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
